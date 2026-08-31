@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-sheets-booking-sync"
+version = "1.0.0"
+description = "Simple Google Sheets to SQLite booking synchronizer"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "Alexander Beloshapka" }]
+dependencies = []
+
+[project.scripts]
+booking-sync = "booking_sync.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["booking_sync*"]

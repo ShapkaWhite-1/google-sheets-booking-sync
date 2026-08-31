@@ -1,0 +1,7 @@
+record_id,property_code,guest_name,phone,check_in,check_out,amount_aed,status,responsible_manager,channel,updated_at,notes
+ST-1001,JLT-X1-2109,John Smith,+971501234567,2026-09-02,2026-09-09,4200,Confirmed,Anna Petrova,Booking.com,2026-08-31 09:15:00,First version
+ST-1002,JLT-GC-1204,Maria Lopez,050 765 4321,03/09/2026,10/09/2026,3900,confirmed,Omar Khan,Airbnb,31/08/2026 10:20,
+ST-1001,JLT-X1-2109,John Smith,+971 50 123 4567,2026/09/02,2026/09/09,"4,250",CONFIRMED,Anna Petrova,booking.com,2026-09-01 09:15:00,Newer version
+ST-1003,JBR-SH-1702,Bad Date,+971501112233,tomorrow,2026-09-12,5100,Pending,Reza Ahmadi,Direct,2026-08-31 12:00:00,
+ST-1004,DOWNTOWN-BLVD-904,Ali Rehman,,2026-09-10,2026-09-17,7600,Confirmed,Omar Khan,Website,2026-08-31 14:35:00,New channel
+
